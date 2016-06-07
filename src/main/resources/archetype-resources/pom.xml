@@ -4,7 +4,7 @@
 	<groupId>${groupId}</groupId>
 	<artifactId>${artifactId}</artifactId>
 	<version>${version}</version>
-	<name>Simple Maven Project</name>
+	<name>${artifactId} project</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>replace.with.your.package.Main</mainClass>
+					<mainClass>${package}.Main</mainClass>
 				</configuration>
 			</plugin>
 			
